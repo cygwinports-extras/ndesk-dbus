@@ -1,0 +1,5 @@
+category: DotNET
+sdesc: "Mono managed D-Bus bindings (sources)"
+ldesc: "dbus-sharp is a C# implementation of D-Bus. It's often referred 
+to as 'managed D-Bus' to avoid confusion with existing bindings (which 
+wrap libdbus)."

@@ -1,0 +1,11 @@
+--- origsrc/ndesk-dbus-0.6.0/src/Makefile.am	2007-10-13 14:43:51.000000000 -0500
++++ src/ndesk-dbus-0.6.0/src/Makefile.am	2007-12-04 09:14:00.880607600 -0600
+@@ -2,7 +2,7 @@
+ TARGET = $(ASSEMBLY).dll
+ 
+ CSFLAGS = \
+-	-debug -target:library -unsafe -d:STRONG_NAME -keyfile:../ndesk.snk
++	-debug -target:library -unsafe -d:STRONG_NAME -keyfile:$(top_srcdir)/ndesk.snk
+ 
+ LIBFLAGS = \
+ 	-r:Mono.Posix

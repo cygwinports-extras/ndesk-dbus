@@ -1,0 +1,10 @@
+inherit mono
+
+DESCRIPTION=".NET Managed D-Bus bindings"
+HOMEPAGE="http://www.ndesk.org/"
+SRC_URI="http://www.ndesk.org/archive/dbus-sharp/${P}.tar.gz"
+
+PATCH_URI="0.6.0-vpath.patch"
+
+PKG_NAMES="${PN} mono-NDesk-DBus1.0"
+mono_NDesk_DBus1_0_CONTENTS="usr/"

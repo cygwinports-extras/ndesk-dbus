@@ -1,0 +1,46 @@
+ndesk-dbus
+------------------------------------------
+dbus-sharp is a C# implementation of D-Bus. It's often referred to as 
+'managed D-Bus' to avoid confusion with existing bindings (which wrap 
+libdbus).
+
+Runtime requirements:
+  dbus
+  mono-2.4.3.1-1
+
+Build requirements:
+  autoconf2.5-2.65-1
+  automake1.9-1.9.6-10
+  cygport-0.3.80-1
+  make-3.81-2
+  mono-2.4.3.1-1
+
+Canonical website:
+  http://www.ndesk.org/
+
+Canonical download:
+  http://www.ndesk.org/archive/dbus-sharp/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ndesk-dbus-0.6.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ndesk-dbus-0.6.0-X.cygport all
+
+This will create:
+  /usr/src/mono-NDesk-DBus1.0-0.6.0-X.tar.bz2
+  /usr/src/ndesk-dbus-0.6.0-X-src.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.6.0-2 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
